@@ -10,9 +10,11 @@
 <body>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <div id="app">
-        <div @click="cambiaColore">
-            <h1 v-bind:class="colors[colorsIndex]">{{message}}</h1>
-        </div>     
+        <div >
+            <div @click="cambiaColore">
+                <h1 v-bind:class="colors[colorsIndex]">{{message}}</h1>
+            </div> 
+        </div>
         <div @click="cambiaImmagine">
             <img v-bind:src="imgSrc" alt="">
         </div>

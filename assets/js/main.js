@@ -6,7 +6,7 @@ const { createApp } = Vue
         message: 'Hello Vue!',
         imgSrc: 'https://picsum.photos/id/237/200/300',
         imageToSwap: 'https://picsum.photos/id/240/200/300',
-        colors: ['black','red','blue','green',],
+        colors: ['black','red','blue','green'],
         colorsIndex: 0
       }
     },
